@@ -8,13 +8,13 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello Prep4 World!");
-        List<int> numbers = new List<int>();
+        List<int> numbers = [];
         int sum = 0;
         int amt = 0;
         int largeNum = 0;
         int number = 0;
         do{
-        Console.WriteLine("Enter as number (Enter 0 to stop): ");
+        Console.Write("Enter as number (Enter 0 to stop): ");
         string strnumber = Console.ReadLine();
         number = int.Parse(strnumber);
         numbers.Add(number);
