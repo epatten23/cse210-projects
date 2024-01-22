@@ -16,7 +16,7 @@ class Program
         job2._company = "Apple";
         job2._startYear = 2022;
         job2._endYear = 2023;
-        
+
         Resume resume1 = new Resume();
         resume1._name = "Alison Jones";
         resume1._jobs.Add(job1);
