@@ -15,10 +15,10 @@ class Program
         DateTime date = DateTime.Now;
         int journaling = 0;
         Entry entreries = new Entry();
-        var allentries = entreries.entries;
+        var allEntries = entreries.entries;
         Journal load = new Journal();
-        List<string> saveentries = load._newentries;
-        saveentries = [];
+        List<string> saveEntries = load._newEntries;
+        saveEntries = [];
 
 
 
@@ -48,18 +48,18 @@ class Program
                     entreries.ReflectionPromptGenerator();
                 };
                 
-                string new_entry = Console.ReadLine();
-                entreries._response = new_entry;
-                string finalentry = entreries.DisplayFullEntry();
-                entreries.entries.Add(finalentry);
+                string newEntry = Console.ReadLine();
+                entreries._response = newEntry;
+                string finalEntry = entreries.DisplayFullEntry();
+                entreries.entries.Add(finalEntry);
                 };
             if(type == 2){
-                if(load._newentries.Count() != 0){
-                    for (int x = 0; x < load._newentries.Count; x++)
-                    Console.WriteLine(load._newentries[x]);
+                if(load._newEntries.Count() != 0){
+                    for (int x = 0; x < load._newEntries.Count; x++)
+                    Console.WriteLine(load._newEntries[x]);
                 }
-                for(int i = -1; i < allentries.Count; i++)
-                    Console.WriteLine(allentries[i]);
+                for(int i = -1; i < allEntries.Count; i++)
+                    Console.WriteLine(allEntries[i]);
                 
             }
             if(type == 3){
@@ -70,9 +70,9 @@ class Program
             if(type == 4){
                 Console.Write("What file name would you like it to save to?: ");
                 load._file = Console.ReadLine();
-                load.SaveEntries(allentries);
-                for(int i = 0; i < allentries.Count; i++)
-                    entreries.entries.Remove(allentries[i]);
+                load.SaveEntries(allEntries);
+                for(int i = 0; i < allEntries.Count; i++)
+                    entreries.entries.Remove(allEntries[i]);
             }
             if(type == 5){
                 break;

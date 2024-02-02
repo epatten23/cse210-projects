@@ -7,7 +7,7 @@ public class Entry{
 
     public string _prompt;
 
-    public List<string> _gratitude_prompts = ["What am I thankful for today?",
+    public List<string> _gratitudePrompts = ["What am I thankful for today?",
     "What do I love most about my body, and why?",
     "Who has loved you unconditionally?",
     "What was the best gift you received as a child? ",
@@ -66,37 +66,7 @@ public class Entry{
     "What were some things that made you feel happy or fulfilled this month, and why?"
     ];
 
-    public List<string> _prompts = ["What can I celebrate right now", 
-    "What was the best thing that happened today?", 
-    "What did I learn today?",
-    "What did I do today that I am proud of?",
     
-    "How do I get to use my creativity on a daily basis?",
-    "How can I be more open-minded and receptive to new ideas and perspectives?",
-    "How does my body feel today?",
-    "What am I nervous or anxious about today?",
-    "What challenges did I face today? How did I overcome them?",
-    "What are my top priorities for the day?",
-    "What was a small detail I noticed today?",
-    
-    "What were the highlights of my day?",
-    "What did I do to bring positivity into my day?",
-    "What were the most important events of the day?",
-    "What did I accomplish today?",
-    "What did I do to relax and recharge today?",
-    "What emotions did I experience today?",
-    "What are some things I am looking forward to tomorrow?",
-    "What did I do to make someone else’s day better?",
-    "What are some things I want to remember about today?",
-    "What is one thing I can’t live without?",
-    "What is one new habit I would like to develop in the next month?",
-    "What habits do I need in order to achieve my goals?",
-    "Who is someone that inspires me, and what qualities do they possess that I admire?",
-    "What things inspire me?",
-    "How do I define success? What steps can I take to achieve it?",
-    "What are my personal values and beliefs?",
-    "What life experiences have shaped who I am today?"    
-    ];
     public List<string> entries = new List<string>();
 
     public string _response;
@@ -109,8 +79,8 @@ public class Entry{
 
     public void GratitudePromptGenerator() {
         var random = new Random();
-        int index = random.Next(_gratitude_prompts.Count);
-        _prompt = _gratitude_prompts[index];
+        int index = random.Next(_gratitudePrompts.Count);
+        _prompt = _gratitudePrompts[index];
         Console.Write($"{_prompt} \n >");
 
     }
@@ -137,7 +107,5 @@ public class Entry{
         Console.Write($"{_prompt} \n >");
 
     }
-
-
 
 }

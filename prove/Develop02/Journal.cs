@@ -6,15 +6,15 @@ public class Journal{
 
     public string _file;
 
-    public string _loadentries;
+    public string _loadEntries;
 
-    public List<string> _newentries = [];
+    public List<string> _newEntries = [];
 
     public void LoadFile(){
-        string filename = _file;
-        string[] lines = System.IO.File.ReadAllLines(filename);
+        string fileName = _file;
+        string[] lines = System.IO.File.ReadAllLines(fileName);
         foreach(string line in lines){
-            _newentries.Add(line);
+            _newEntries.Add(line);
         // Using the file reader thing, read every single line and add it to a list to be added iwht the display function 
 
                 }
