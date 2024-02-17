@@ -9,7 +9,6 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello Develop03 World!");
-        References ahh = new References();
         Scripture news = new Scripture();
         Words bs = new Words();
         
@@ -25,9 +24,9 @@ class Program
         var answer = Console.ReadLine();
         while (answer != "quit") {
             bs.Hiddens(3, finaldict);
+            finaldict = bs.newvalue;
             answer = Console.ReadLine();
             Console.Clear();
-            continue;
             if(answer == "quit"){
                 break;
             }

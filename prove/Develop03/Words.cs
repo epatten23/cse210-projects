@@ -6,58 +6,50 @@ using System.Security.Cryptography.X509Certificates;
 
 public class Words{
     new References red = new();
-    // References with_bools = new();
-    new Scripture news = new();
-    private string text;
-    private bool hidden;
+
     private int index;
-    private int amthidden = 3;
-    private object wholeDict;
-
-    
-    Random random = new();
-
-    // public List<List<Object>> GetIndex(){
-    //     KeyValuePair<string, string> refer = news.PickReference();
-        
-    //     return words;
-    // }
-
-    public void Hide(){
-        this.hidden = true;
-        
-    }
+    private string newstring;
+    private string otherstring;
+    private int wordshidden;
+    private int count = 0;
+    public KeyValuePair<string,string> newvalue;
+    private Random random = new();
 
     public void Hiddens(int amttohide, KeyValuePair<string, string> refer){
-        // var wholedict = red.SplitString(news.referen);
         Console.Clear();
         List<List<Object>> words = red.SplitString(refer);
-        int counter = words.Count();
+        int counter = words.Count;
         
         Console.Clear();
-        while(counter != 0){
-            foreach(var i in words){
-                Console.Write(i[1] + " ");
-                counter -= 1;
-            }
-
+        Console.Write($"{refer.Key} ");
+        foreach(var i in words){
+            Console.Write(i[1] + " ");
         }
-
-        for(int i = 0; i < amttohide; i++){
-            index = random.Next(words.Count - 1);
-            List<Object> randomPair = words[index];
-            bool value;
-            value = (bool)randomPair[2];
-            if(value == true){
-                words[index][1] = "____";
-                value = (bool)words[index][2];
-                value = false;
-
+        wordshidden = 0;   
+        for(int i = 0; i < amttohide;){
+            index = random.Next(words.Count);
+            List<Object> randomPair = red.with_bools[index];
+            if (!((string)words[index][1]).StartsWith("_")){
+                string originalstring = (string)randomPair[1];
+                string originalstring2 = (string)randomPair[1];
+                red.with_bools[index][1] = string.Concat(Enumerable.Repeat("_", originalstring.Length));
+                words[index][1] = string.Concat(Enumerable.Repeat("_", originalstring2.Length));
+                red.with_bools[index][2] =  false;
+                words[index][2] =  false;
+                amttohide -= 1;
+                count += 1;
             }
-            else{
-                continue;
-            }
-            }
+        }    
+        newstring = "";
+        foreach(var f in words){
+            newstring += $"{f[1]} ";
+            otherstring = refer.Key;     
+        }
+        newvalue = new KeyValuePair<string, string>(otherstring, newstring);
+        if(count >= counter - 2){
+            Console.Clear();
+            Console.WriteLine($"Congrats! You memorized {refer.Key}!");
+        }
             
     }
     
