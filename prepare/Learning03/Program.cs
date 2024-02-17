@@ -10,12 +10,15 @@ class Program
         Fraction zerofacts = new Fraction();
         Fraction onefacts = new Fraction(2);
 
-        twofacts.GetDecimalValue();
-        twofacts.GetFractionString();
+
+        zerofacts.GetDecimalValue();
+        zerofacts.GetFractionString();    
         onefacts.GetDecimalValue();
         onefacts.GetFractionString();
-        zerofacts.GetDecimalValue();
-        zerofacts.GetFractionString();        
+        twofacts.GetDecimalValue();
+        twofacts.GetFractionString();
+
+    
 
     }
 }
