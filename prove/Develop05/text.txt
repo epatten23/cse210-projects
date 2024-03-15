@@ -1,0 +1,5 @@
+0
+{"name":"skip class","points":"20","description":"not going to class","type":"NegativeGoal","accomplished":null,"bonus":null,"completedSymbol":" "}
+{"name":"read scriptures","points":"20","description":"chapter a night","type":"EternalGoal","accomplished":null,"bonus":null,"completedSymbol":" "}
+{"name":"temple","points":"20","description":"temple","type":"ChecklistGoal","accomplished":"3","bonus":"200","completedSymbol":" "}
+{"name":"talk","points":"20","description":"talk","type":"SimpleGoal","accomplished":null,"bonus":null,"completedSymbol":" "}

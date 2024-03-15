@@ -1,0 +1,15 @@
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\bin\Debug\net8.0\Develop04.exe
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\bin\Debug\net8.0\Develop04.deps.json
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\bin\Debug\net8.0\Develop04.runtimeconfig.json
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\bin\Debug\net8.0\Develop04.dll
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\bin\Debug\net8.0\Develop04.pdb
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.AssemblyInfoInputs.cache
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.AssemblyInfo.cs
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.csproj.CoreCompileInputs.cache
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.sourcelink.json
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.dll
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\refint\Develop04.dll
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.pdb
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\Develop04.genruntimeconfig.cache
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\prove\Develop04\obj\Debug\net8.0\ref\Develop04.dll

@@ -1,0 +1,15 @@
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\bin\Debug\net8.0\Prep2.exe
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\bin\Debug\net8.0\Prep2.deps.json
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\bin\Debug\net8.0\Prep2.runtimeconfig.json
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\bin\Debug\net8.0\Prep2.dll
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\bin\Debug\net8.0\Prep2.pdb
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.AssemblyInfoInputs.cache
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.AssemblyInfo.cs
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.csproj.CoreCompileInputs.cache
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.sourcelink.json
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.dll
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\refint\Prep2.dll
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.pdb
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\Prep2.genruntimeconfig.cache
+C:\Users\ellap\Documents\2024Winter Semester\CSE210_Programming_With_Classes\cse210-projects\csharp-prep\Prep2\obj\Debug\net8.0\ref\Prep2.dll
