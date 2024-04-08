@@ -9,6 +9,8 @@ class Program
     {
         Console.WriteLine("Hello FinalProject World!");
         var menu = new Menu();
+        var save = new Save();
+        save.CallPortfolio();
         menu.HandleInput();
         // api.Itterate();
         

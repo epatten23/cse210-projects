@@ -1,0 +1,1 @@
+[{"symbol":"AAPL","price":168.82,"shares":2},{"symbol":"FTNT","price":68.285,"shares":1}]

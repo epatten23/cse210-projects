@@ -1,26 +1,22 @@
 public class SellStock: Portfolio{
-    public void SellStocks(){
-        Console.WriteLine("What stock do you want to sell? Enter the ticker symbol: ");
-        string symbol = Console.ReadLine();
-        Console.WriteLine("How many shares do you want to sell?");
-        int shares = Convert.ToInt32(Console.ReadLine());
+    public void SellStocks(Stock stock){
 
-            if(stocks.Exists(x => x.symbol == symbol)){
-                var stocking = stocks.Find(x => x.symbol == symbol);
-                if(stocking.shares >= shares){
-                    stocking.shares -= shares;
-                    Console.WriteLine($"Selling: ${api.GetPrice(symbol) * shares}");
+            if(stocks.Exists(x => x.symbol == stock.symbol)){
+                var stocking = stocks.Find(x => x.symbol == stock.symbol);
+                if(stocking.shares >= stock.shares){
+                    stocking.shares -= stock.shares;
+                    Console.WriteLine($"Selling: ${api.GetPrice(stock.symbol) * stock.shares}");
                     if(stocking.shares == 0){
                         stocks.Remove(stocking);
                         Console.WriteLine("You have sold all of your shares.");
                     }
                 }
-                else if (stocking.shares < shares){
-                    if(stocks.Exists(x => x.symbol == symbol)){
-                    var stockling = stocks.Find(x => x.symbol == symbol);
-                    if(stockling.shares <= shares){
-                        stockling.shares -= shares;
-                        Console.WriteLine($"Selling: ${api.GetPrice(symbol) * shares}");
+                else if (stocking.shares < stock.shares){
+                    if(stocks.Exists(x => x.symbol == stock.symbol)){
+                    var stockling = stocks.Find(x => x.symbol == stock.symbol);
+                    if(stockling.shares <= stock.shares){
+                        stockling.shares -= stock.shares;
+                        Console.WriteLine($"Selling: ${api.GetPrice(stock.symbol) * stock.shares}");
                     }
                     else if(stockling.shares == 0){
                             stocks.Remove(stockling);
